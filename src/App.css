@@ -23,7 +23,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.tablecss {
+  background-color: rgb(172, 143, 200);
+  width: 100%;
+}
 
+.tablecss > thead {
+  display: flex;
+  justify-content: space-around;
+}
 .App-link {
   color: #61dafb;
 }
